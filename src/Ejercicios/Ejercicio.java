@@ -32,7 +32,7 @@ public class Ejercicio {
         while (numero != 0) {
             int auxMod = numero % 10;
             numero = numero / 10;
-            numeroInvertido = numero * 10 + auxMod;
+            numeroInvertido = numeroInvertido * 10 + auxMod;
         }
         return numeroInvertido;
     }
@@ -215,4 +215,5 @@ public class Ejercicio {
         }
         System.out.println("\nLa suma total es: " + suma);
     }
+
 }

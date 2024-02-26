@@ -7,6 +7,6 @@ public class Main {
         //n.ejer1(4);
         //n.ejer2(10);
         System.out.println(n.ejer3(123));
-        System.out.println(n.ejer4(60,48));
+//        System.out.println(n.ejer4(60,48));
     }
 }
