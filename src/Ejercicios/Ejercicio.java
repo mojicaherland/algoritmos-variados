@@ -2,7 +2,7 @@ package Ejercicios;
 
 public class Ejercicio {
     public static void main(String[] args) {
-        ejer16Series(8);
+        ejer10Sumatoria(15);
     }
     /*EJERCICIOS DE NUMEROS*/ //--> 10
 
@@ -216,4 +216,19 @@ public class Ejercicio {
         System.out.println("\nLa suma total es: " + suma);
     }
 
+    //ejercicio que faltaba
+    public static void ejer10Sumatoria(int terminos) {
+        int maximoActual = 1;
+        int numeroActual = 1;
+
+        for (int i = 0; i < terminos; i++) {
+            System.out.print(numeroActual + " ");
+            if (numeroActual == maximoActual) {
+                numeroActual = 1;
+                maximoActual++;
+            } else {
+                numeroActual++;
+            }
+        }
+    }
 }
