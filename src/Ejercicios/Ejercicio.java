@@ -2,7 +2,7 @@ package Ejercicios;
 
 public class Ejercicio {
     public static void main(String[] args) {
-        ejer10Sumatoria(15);
+
     }
     /*EJERCICIOS DE NUMEROS*/ //--> 10
 
@@ -43,7 +43,7 @@ public class Ejercicio {
         Ejemplo: Si A=60 y B=48, entonces el MCD es 12.
      */
 
-    public static int ejer4(int a, int b) {
+    public int ejer4(int a, int b) {
         while (a != b) {
             if (a > b) {
                 a = a - b;
@@ -84,7 +84,7 @@ public class Ejercicio {
         }
     }
 
-    public static void ejer2SumatoriaSuma(int numero) {// muestra sumatoria y la suma total de esa sumatoria
+    public void ejer2SumatoriaSuma(int numero) {// muestra sumatoria y la suma total de esa sumatoria
         int a = 1, b = 4, suma = 0;
         for (int i = 1; i <= numero; i++) {
             System.out.print(a + " ");
@@ -96,7 +96,7 @@ public class Ejercicio {
         System.out.println("suma es : " + suma);
     }
 
-    public static void ejer14Sumatoria(int numero) {
+    public void ejer14Sumatoria(int numero) {
         int suma = 0;
         for (int i = 6; i <= numero; i *= 2) {
             suma += i;
@@ -155,18 +155,18 @@ public class Ejercicio {
     }
 
     /*6 EJERCICIOS MAS DE NUMEROS*/
-    public static void ejer12Series(int numero) {
+    public void ejer12Series(int numero) {
         for (int i = 1; i <= numero; i += 3) {
             System.out.print(i + " ");
         }
     }
 
-    public static void ejer14Series(int numero) {
+    public  void ejer14Series(int numero) {
         for (int i = 1; i <= numero; i++) {
             System.out.print((int) Math.pow(3, i) + " ");
         }
     }
-    public static void ejer16Series(int numero) {
+    public  void ejer16Series(int numero) {
         int numDecreciente = numero;
         int numCreciente = 1;
         while (numDecreciente >= numCreciente) {
@@ -179,7 +179,7 @@ public class Ejercicio {
         }
     }
 
-    public static void ejer4Sumatoria(int numero) {
+    public void ejer4Sumatoria(int numero) {
         int suma = 0;
         for (int i = 1; i <= numero; i += 2) {
             int producto = i * (i + 1);
@@ -191,7 +191,7 @@ public class Ejercicio {
         }
         System.out.println("La suma total es: " + suma);
     }
-    public static void ejer6Sumatoria(int numero) {
+    public  void ejer6Sumatoria(int numero) {
         int suma = 0;
         for (int i = 1; i <= numero; i++) {
             int producto = i * (2 * i - 1);
@@ -203,7 +203,7 @@ public class Ejercicio {
         }
         System.out.println("La suma total es: " + suma);
     }
-    public static void ejer8Sumatoria(int numero) {
+    public void ejer8Sumatoria(int numero) {
         int suma = 0;
         for (int i = 1; i <= numero; i += 2) {
             int cuadrado = i * i;
@@ -217,7 +217,7 @@ public class Ejercicio {
     }
 
     //ejercicio que faltaba
-    public static void ejer10Sumatoria(int terminos) {
+    public void ejer10Sumatoria(int terminos) {
         int maximoActual = 1;
         int numeroActual = 1;
 
