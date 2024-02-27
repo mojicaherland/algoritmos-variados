@@ -135,7 +135,7 @@ public class Ejercicio {
         return cad;
     }
 
-    public static char eje10Cadenas(String cadena) { // yapa
+    public char eje10Cadenas(String cadena) { // yapa
         char charFrecuente = ' ';
         int maxVeces = 0;
         for (int i = 0; i < cadena.length(); i++) {
