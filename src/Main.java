@@ -32,10 +32,13 @@ public class Main {
 
         /*VECTORES*/
         Vector n = new Vector();
-        int[] vector = new int[4];
+        int[] vector = new int[3];
+        int[] vector2 = new int[2];
         n.cargarVecMan(vector);
+        n.cargarVecMan(vector2);
         n.mostarVec(vector);
-
+        n.mostarVec(vector2);
+        n.unirVectores(vector,vector2);
 
     }
 }
