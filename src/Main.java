@@ -1,4 +1,5 @@
 import Ejercicios.Ejercicio;
+import Ejercicios.Matrices;
 import Ejercicios.Vector;
 
 public class Main {
@@ -39,6 +40,10 @@ public class Main {
         n.mostarVec(vector);
         n.mostarVec(vector2);
         n.unirVectores(vector,vector2);
+
+        /*MATRICES*/
+        Matrices matrices = new Matrices();
+        int[][] matriz = new int[3][3];
 
     }
 }
