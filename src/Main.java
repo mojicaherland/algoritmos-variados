@@ -44,6 +44,8 @@ public class Main {
         /*MATRICES*/
         Matrices matrices = new Matrices();
         int[][] matriz = new int[3][3];
-
+        matrices.cargarMan(matriz);
+        matrices.mostrarMatriz(matriz);
+        System.out.println(matrices.sumaDiagonales(matriz));
     }
 }

@@ -3,12 +3,6 @@ package Ejercicios;
 import java.util.Scanner;
 
 public class Matrices {
-    public static void main(String[] args) {
-        int[][] matriz = new int[3][3];
-        cargarMan(matriz);
-        mostrarMatriz(matriz);
-        System.out.println(sumaDiagonales(matriz));
-    }
 
     //METODOS AUXILIARES
 
